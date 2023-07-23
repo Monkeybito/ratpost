@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 40px;
+    color: white;
+}
+
+.section-one{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    background-color: gray;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+}
+
+.section-one-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.section-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightslategray;
+}
+
+.section-two-two{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
